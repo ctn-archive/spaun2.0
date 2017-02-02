@@ -26,10 +26,11 @@ def Spaun():
         model.stim = Stimulus()
         model.vis = Vision()
         model.ps = ProdSys()
-        model.reward = RewardEval()
+        # model.reward = RewardEval()  # fails
         model.enc = InfoEnc()
+
         model.mem = Memory()
-        model.trfm = TrfmSys()
+        # model.trfm = TrfmSys()  # fails
         model.dec = InfoDec()
         model.mtr = Motor()
         model.monitor = Monitor()
